@@ -80,9 +80,9 @@ public class RCTSplashScreen extends ReactContextBaseJavaModule {
     }
 
     private int getSplashId() {
-        int drawableId = getActivity().getResources().getIdentifier("splash", "drawable", getActivity().getClass().getPackage().getName());
+        int drawableId = getActivity().getResources().getIdentifier("splash2", "drawable", getActivity().getClass().getPackage().getName());
         if (drawableId == 0) {
-            drawableId = getActivity().getResources().getIdentifier("splash", "drawable", getActivity().getPackageName());
+            drawableId = getActivity().getResources().getIdentifier("splash2", "drawable", getActivity().getPackageName());
         }
         return drawableId;
     }
